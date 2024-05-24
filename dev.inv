@@ -1,0 +1,9 @@
+[worker1]
+172.31.21.81 ansible_user=ansiuser
+
+[worker2]
+172.31.31.81 ansible_user=ansiuser
+
+[webservers]
+172.31.21.81 ansible_user=ansiuser
+172.31.31.84 ansible_user=ansiuser
